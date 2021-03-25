@@ -1,0 +1,174 @@
+/*main rules*/*{
+	box-sizing:border-box ;
+	font-family: 'Comic Sans MS';
+	text-align: center;
+	margin: 0;
+	line-height: 1.5;
+}
+h3{margin-bottom: 20px;}
+i{color: #FAB1A0;}
+p{margin-top: 20px;}
+a{text-decoration: none;color: gray}
+.hidden{
+	display: none;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #F5F8FA;
+}
+/*end main rules*/
+/*start navbar*/
+a.selected{
+	color: #88BC4F !important;
+}
+.navbar{
+	width: 100%;
+	height:70px;
+	background-color: white;
+	display: flex;
+	box-shadow: 0px 6px 10px #dedede;
+	color: gray;
+
+}
+.navbar h2{
+	margin:auto 0 auto 21px;
+
+	/*color: #FAB1A0;*/
+}
+.navbar span{color: #88bc4f}
+.navbar input {
+	height: 40px;
+    width: 400px;
+    margin: auto 0 auto 21px;
+    border:2px solid #FAB1A0;
+    border-radius: 20px;
+    outline: none;
+    text-align: left;
+    padding-left: 20px !important;
+}
+.navbar i{
+	margin: auto 70px auto 10px;
+	color: #FAB1A0;
+	cursor: pointer;
+}
+.navbar ul{
+	list-style: none;
+	margin: auto 20px;
+}
+.navbar ul li{
+	float: left;
+	margin: 10px;
+	font-size: 19px;
+	cursor: pointer;
+}
+.navbar ul li a:hover{
+	color: #FAB1A0 !important;
+}
+.navbar button{ 
+	width: 100px;
+	height: 40px;
+	margin: auto 20px;
+	background: none; 
+	border:2px solid #FAB1A0;
+	border-radius: 20px;
+	outline: none;
+	cursor: pointer;
+}
+.navbar button a{
+	font-size: 16px;
+	color: #FAB1A0 !important;
+}
+/*end navbar*/
+.help{
+	width: 20%;
+	height: 100px;
+	float:left;
+	margin: 20px 3%;
+	border-radius: 10px;
+	overflow: hidden;
+	color:gray;
+	box-shadow: 0px 6px 10px #dedede;
+	display: block !important;
+}
+.help .marche,.help .contact-us{
+	width: 100%;
+	height: 50%;
+	padding: 10px;
+}
+.help .marche:hover,.help .contact-us:hover{
+	background-color: #ddd;
+}
+.help .selected{
+	background-color:#88BC4F;
+	color:white;
+}
+.help,.help-details{
+	background-color: white;
+}
+.help-details{
+	width: 70%;
+	min-height: 1000px;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+	overflow: hidden;
+	color: gray;
+	box-shadow: 0px 6px 10px #dedede;
+	margin-bottom: 30px;
+}
+.help-details .marche-details .title{
+	width: 100%;
+	min-height: 50px;
+	background-color:#FAB1A0;
+	color: white;
+}
+.help-details .marche-details .title h1{
+	margin: 0;
+	padding: 30px;
+}
+/*start sell*/
+.help-details .marche-details .sell-title{background-color: #ddd;padding: 30px;}
+.help-details .marche-details .sell-title h2{color: black}
+.help-details .marche-details .sell{background-color: white;overflow:hidden;}
+.help-details .marche-details .sell .step1{float: left;width: 33.33%;padding: 20px;}
+.help-details .marche-details .sell .step2{float: left;width: 33.33%;padding: 20px;}
+.help-details .marche-details .sell .step3{float: left;width: 33.33%;padding: 20px;}
+/*end sell*/
+/*start buy*/
+.help-details .marche-details .buy-title{background-color: #ddd;padding: 30px;}
+.help-details .marche-details .buy-title h2{color: black}
+.help-details .marche-details .buy{background-color: white;overflow:hidden;}
+.help-details .marche-details .buy .step1{float: left;width: 50%;padding: 20px;}
+.help-details .marche-details .buy .step2{float: left;width: 50%;padding: 20px;}
+/*end buy*/
+
+/*start contact us*/
+.contact-details{
+	width: 70%;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+	overflow: hidden;
+	color: gray;
+	box-shadow: 0px 6px 10px #dedede;
+	margin-bottom: 30px;
+}
+.contact-details .title{
+	width: 100%;
+	min-height: 50px;
+	background-color:#FAB1A0;
+	color: white;	
+}
+.contact-details .title h1{
+	margin: 0;
+	padding: 30px;}
+.contact-details .social-media{background-color: white;overflow:hidden;}
+.contact-details .social-media .messanger{float: left;width: 33.33%;padding: 20px;}
+.contact-details .social-media .messanger i{color:#0084FF;}
+.contact-details .social-media .phone{float: left;width: 33.33%;padding: 20px;}
+.contact-details .social-media .phone i{color: #41e356}
+.contact-details .social-media .email{float: left;width: 33.33%;padding: 20px;}
+.contact-details .social-media .email i{color: #ce4242}
+.contact-details .social-media i{cursor: pointer;}
+/*end contact us*/

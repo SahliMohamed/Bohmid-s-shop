@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sell</title>
+	<link rel="stylesheet" type="text/css" href="css/sell.css">
+	<link rel="stylesheet" type="text/css" href="css/Normalize.css">
+	<link rel="stylesheet" type="text/css" href="../fontawesome/fontawesome-free-5.9.0-web/css/all.min.css">
+</head>
+<body>
+	<div class="navbar">
+		<h2><a href="../products/products.html">BOHMID'S<span> SHOP</span></a></h2>
+		<input type="text" placeholder="Search">
+		<i class="fas fa-search"></i>
+		<ul>
+			<li><a href="../products/products.html">Home<a></li>
+			<li><a href="../sell/sell.html" class="selected">Add product<a></li>
+			<li><a href="../help/help.html">Help</a></li>
+			<li><a href="../about us/about-us.html">About us</a></li>
+		</ul>
+		<button><a href="../login/login.html">Log out<a></button>
+	</div>
+	<div class="container">
+		<div class="title">
+			<i class="fas fa-plus fa-2x"></i>
+			<h1>You want to sell an item !</h1>
+		</div>
+		<p>Take a beautiful photo</p>
+		<div class="photos">
+			<i class="fas fa-camera-retro fa-2x"></i>
+			<h2>Photo</h2>
+			<div class="inputet">
+				<input type="file">
+			</div>
+			
+		</div>
+		<div class="description">
+			<i class="fas fa-pencil-alt fa-2x"></i>
+			<h2>Describe your article!</h2>
+			<div class="our-form">
+				<form>
+					<div>
+						<input type="text"  required="required" placeholder="Type the price">
+						<span class="the-message">Please fill this field</span>
+					</div>
+					<div>
+						<input type="text"  required="required" placeholder="Type the article's name">
+						<span class="the-message">Please fill this field</span>
+					</div>
+					<div>
+						<input type="text"  required="required" placeholder="Type your phone number">
+						<span class="the-message">Please fill this field</span>
+					</div>
+					<div>
+						<textarea placeholder="Type the description"></textarea>
+						<span class="the-message">Please fill this field</span>
+					</div>
+					<div>
+						<input class="add-tag" type="text" placeholder="Type some tags then press [ , ]">
+						<div class="tags"></div>
+					</div>
+					<input type="submit" value="Sell">
+				</form>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="../minijquery.js"></script>
+	<script type="text/javascript" src="js/sell.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+body{
+	background-image:url("../images/shopping.png");
+	background-size: cover;
+	margin:0;
+	padding: 0;
+	font-family: "Comic Sans MS";
+	color: #412A4B;;
+}
+/*start login box*/
+.login-box{
+	width: 370px;
+	height: 450px;
+    margin: 70px auto;
+    display:block;
+    border-radius: 10px;
+    background-color:rgba(235,242,245,0.5);
+    box-shadow: -6px 7px 13px 0px #412a4b;
+    text-align: center;
+
+}
+.login-box img{
+	width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: -40px;
+    margin: auto 135px;
+}
+.login-box h1{
+	color: #412A4B;
+}
+.login-box input{
+	border-radius:10px;
+	border: none;
+	outline: none;
+}
+.login-box input[type=text],input[type=password]{
+	width: 240px;
+    height: 40px;
+    font-size: 17px;
+    padding: 0 10px;
+}
+.login-box input[type=text],input[type=password],input[type=submit]{
+	display: block;
+	margin:20px auto;
+}
+.login-box input[type=submit]{
+	width: 250px;
+	height: 40px;
+	background-color:#88BC4F;
+	color: white;
+	font-size:28px;
+	cursor: pointer;
+}
+/*end login box*/
+
+/*start createbox*/
+.create-box{
+	width: 370px;
+	height: 450px;
+    margin: 70px auto;
+    display:block;
+    border-radius: 10px;
+    background-color:rgba(235,242,245,0.5);
+    box-shadow: -6px 7px 13px 0px #412a4b;
+    text-align: center;
+    display: none;
+
+}
+.create-box h2{
+	color: #412A4B;
+	padding:20px 0 0;
+}
+.create-box input{
+	border-radius:10px;
+	border: none;
+	outline: none;
+}
+.create-box input[type=text],input[type=password],input[type=email]{
+	width: 240px;
+    height: 40px;
+    font-size: 17px;
+    padding: 0 10px;
+}
+.create-box input[type=text],input[type=password],input[type=submit],input[type=email]{
+	display: block;
+	margin:20px auto;
+}
+.create-box input[type=submit]{
+	width: 250px;
+	height: 40px;
+	background-color:#88BC4F;
+	color: white;
+	font-size:28px;
+	cursor: pointer;
+}
+/*end createbox*/

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<body>
+	<div class="login-box">
+		<img src="images/avatar.png" alt="avatar">
+		<h1>Sign in</h1>
+		<input type="email" required="required" placeholder="Type your email" id="adress1">
+		<input type="password" required="required" placeholder="Password" id="pwd">
+		<input type="submit" value="Login" onclick="verifyAdress1();verifyPwd();send1();">
+		<input type="checkbox" value=""> Remember me <br>
+		<a href="">Create new account</a>
+	</div>
+	<div class="create-box">
+
+		<h2>Create new account</h2>
+		<input type="text" required="required" placeholder="User name" id="user">
+		<input type="email" required="required" placeholder="Type your email" id="adress2">
+		<input type="password" required="required" placeholder="Password" id="pwd1">
+		<input type="password" required="required" placeholder="verify password" id="pwd2">
+		<input type="text" required="required" placeholder="Type your Age" id="age">
+		<input type="submit" value="Validate" onclick="verifyUser();verifyAdress2();verifySamePwd();verifyAge();send2();">
+	</div>
+	<script type="text/javascript" src="../minijquery.js"></script>
+	<script type="text/javascript" src="js/loginJquery.js"></script>
+	<script type="text/javascript" src="js/verify.js"></script>
+</body>
+</html>
